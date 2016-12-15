@@ -1,4 +1,5 @@
-language: html
+language: ruby
+script: echo "No build step"
 deploy:
   provider: s3
   access_key_id: AKIAI3HYWE27UJWXI4PQ
