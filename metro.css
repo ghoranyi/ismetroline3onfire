@@ -7,9 +7,14 @@ html, body {
   color: white;
 }
 
-header, header.not_yet {
-  background-image: url(images/not_yet.jpg);
+header {
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header.not_yet {
+  background-image: url(images/not_yet.jpg);
 }
 
 header.yes {
